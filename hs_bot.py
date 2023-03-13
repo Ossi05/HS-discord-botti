@@ -28,5 +28,5 @@ async def on_message(message):
         except requests.exceptions.RequestException as e:
             await message.channel.send(f'Pyyntö epäonnistui: {e}')
 
-bot_token = ""
+bot_token = "" #Botin tokeni tähän
 client.run(bot_token)
